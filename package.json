@@ -1,0 +1,39 @@
+{
+  "name": "sql2redis",
+  "version": "1.0.0",
+  "description": "Attempt to migrate some sql data to redis to speedup a bit some app",
+  "main": "index.js",
+  "author": "Timur Stash",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "dotenv": "^4.0.0",
+    "from": "^0.1.7",
+    "gulp-babel": "^7.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-newer": "^1.3.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-util": "^3.0.8",
+    "import": "^0.0.6",
+    "joi": "^13.0.1",
+    "redis": "^2.8.0",
+    "sequelize": "^4.22.5",
+    "tedious": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-node8": "^1.2.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "nodemon": "^1.12.1",
+    "run-sequence": "^2.2.0"
+  },
+  "scripts": {
+    "start": "gulp serve",
+    "build": "gulp"
+  }
+}
